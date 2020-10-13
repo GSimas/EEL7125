@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.apache.xmlgraphics.ps">
+    <module_version install_time="1581019983167" last="true" origin="installer" specification_version="1.0">
+        <file crc="903000080" name="config/Modules/org-apache-xmlgraphics-ps.xml"/>
+        <file crc="840883819" name="modules/ext/xmlgraphics-commons-1.2svn.jar"/>
+        <file crc="45814549" name="modules/org-apache-xmlgraphics-ps.jar"/>
+    </module_version>
+</module>

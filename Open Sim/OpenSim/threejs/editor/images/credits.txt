@@ -1,0 +1,1 @@
+Some skyboxes were obtained from 3delyvisions, others from three.js distribution.

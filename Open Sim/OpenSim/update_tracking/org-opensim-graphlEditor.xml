@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.opensim.graphlEditor">
+    <module_version install_time="1581020016605" last="true" origin="installer" specification_version="1.0">
+        <file crc="821511582" name="config/Modules/org-opensim-graphlEditor.xml"/>
+        <file crc="5551618" name="modules/org-opensim-graphlEditor.jar"/>
+    </module_version>
+</module>

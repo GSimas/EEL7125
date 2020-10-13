@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.opensim.updater">
+    <module_version install_time="1581020000434" last="true" origin="installer" specification_version="1.0">
+        <file crc="2270125803" name="config/Modules/org-opensim-updater.xml"/>
+        <file crc="737038921" name="modules/org-opensim-updater.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.jfree.data">
+    <module_version install_time="1581019992816" last="true" origin="installer" specification_version="1.0">
+        <file crc="1081269353" name="config/Modules/org-jfree-data.xml"/>
+        <file crc="1469529782" name="modules/ext/jfreechart-1.0.4.jar"/>
+        <file crc="3761304995" name="modules/org-jfree-data.jar"/>
+    </module_version>
+</module>

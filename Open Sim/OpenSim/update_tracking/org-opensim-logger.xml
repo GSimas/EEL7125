@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.opensim.logger">
+    <module_version install_time="1581020000194" last="true" origin="installer" specification_version="1.0">
+        <file crc="2885033540" name="config/Modules/org-opensim-logger.xml"/>
+        <file crc="2115371410" name="modules/org-opensim-logger.jar"/>
+    </module_version>
+</module>

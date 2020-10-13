@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.eclipse.jetty">
+    <module_version install_time="1581020002689" last="true" origin="installer" specification_version="1.0">
+        <file crc="2417914405" name="config/Modules/org-eclipse-jetty.xml"/>
+        <file crc="3395112078" name="modules/ext/jetty-all-9.3.3.v20150827-uber.jar"/>
+        <file crc="3711270964" name="modules/org-eclipse-jetty.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.opensim.modeling">
+    <module_version install_time="1581019998827" last="true" origin="installer" specification_version="3.1">
+        <file crc="929088527" name="config/Modules/org-opensim-modeling.xml"/>
+        <file crc="1427011094" name="modules/org-opensim-modeling.jar"/>
+    </module_version>
+</module>

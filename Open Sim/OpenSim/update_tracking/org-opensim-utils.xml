@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.opensim.utils">
+    <module_version install_time="1581020001465" last="true" origin="installer" specification_version="1.0">
+        <file crc="1641170809" name="config/Modules/org-opensim-utils.xml"/>
+        <file crc="1075369377" name="modules/org-opensim-utils.jar"/>
+    </module_version>
+</module>

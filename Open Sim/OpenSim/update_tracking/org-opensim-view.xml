@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.opensim.view">
+    <module_version install_time="1581020008347" last="true" origin="installer" specification_version="3.204">
+        <file crc="3412866572" name="config/Modules/org-opensim-view.xml"/>
+        <file crc="3701962952" name="modules/org-opensim-view.jar"/>
+    </module_version>
+</module>
