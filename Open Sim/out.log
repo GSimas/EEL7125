@@ -1,0 +1,296 @@
+Updating Model file from 30000 to latest format...
+Loaded model Tug_of_War from file C:\Users\Gustavo Simas\Documents\Github\EEL7125\Open Sim\opensim_data\Models\Tug_of_War\Tug_of_War.osim
+ControllerSet 'Controllers' was renamed and is being reset to 'controllerset'.
+ComponentSet 'MiscComponents' was renamed and is being reset to 'componentset'.
+Running tool Tug_of_War.
+No external loads will be applied (external loads file not specified).
+MODEL: Tug_of_War
+
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 1
+numConstraints = 0
+numProbes = 0
+
+ANALYSES (total: 2)
+analysis[0] = Un-named analysis.
+analysis[1] = Un-named analysis.
+
+BODIES (total: 1)
+body[0] = block. mass: 20
+              moments of inertia:  ~[0.133333,0.133333,0.133333]
+              products of inertia: ~[0,0,0]
+
+JOINTS (total: 1)
+joint[0] = ground_block. parent: ground_offset, child: block_offset
+
+ACTUATORS (total: 2)
+actuator[0] = muscle1
+actuator[1] = muscle2
+
+STATES (total: 6)
+y[0] = /jointset/ground_block/block_tz/value
+y[1] = /jointset/ground_block/block_tz/speed
+y[2] = /forceset/muscle1/activation
+y[3] = /forceset/muscle1/fiber_length
+y[4] = /forceset/muscle2/activation
+y[5] = /forceset/muscle2/fiber_length
+
+
+Integrating from 0 to 5
+Running tool Tug_of_War.
+No external loads will be applied (external loads file not specified).
+MODEL: Tug_of_War
+
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 1
+numConstraints = 0
+numProbes = 0
+
+ANALYSES (total: 2)
+analysis[0] = Un-named analysis.
+analysis[1] = Un-named analysis.
+
+BODIES (total: 1)
+body[0] = block. mass: 20
+              moments of inertia:  ~[0.133333,0.133333,0.133333]
+              products of inertia: ~[0,0,0]
+
+JOINTS (total: 1)
+joint[0] = ground_block. parent: ground_offset, child: block_offset
+
+ACTUATORS (total: 2)
+actuator[0] = muscle1
+actuator[1] = muscle2
+
+STATES (total: 6)
+y[0] = /jointset/ground_block/block_tz/value
+y[1] = /jointset/ground_block/block_tz/speed
+y[2] = /forceset/muscle1/activation
+y[3] = /forceset/muscle1/fiber_length
+y[4] = /forceset/muscle2/activation
+y[5] = /forceset/muscle2/fiber_length
+
+
+Integrating from 0 to 5
+Running tool Tug_of_War.
+No external loads will be applied (external loads file not specified).
+MODEL: Tug_of_War
+
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 1
+numConstraints = 0
+numProbes = 0
+
+ANALYSES (total: 2)
+analysis[0] = Un-named analysis.
+analysis[1] = Un-named analysis.
+
+BODIES (total: 1)
+body[0] = block. mass: 20
+              moments of inertia:  ~[0.133333,0.133333,0.133333]
+              products of inertia: ~[0,0,0]
+
+JOINTS (total: 1)
+joint[0] = ground_block. parent: ground_offset, child: block_offset
+
+ACTUATORS (total: 2)
+actuator[0] = muscle1
+actuator[1] = muscle2
+
+STATES (total: 6)
+y[0] = /jointset/ground_block/block_tz/value
+y[1] = /jointset/ground_block/block_tz/speed
+y[2] = /forceset/muscle1/activation
+y[3] = /forceset/muscle1/fiber_length
+y[4] = /forceset/muscle2/activation
+y[5] = /forceset/muscle2/fiber_length
+
+
+Integrating from 0 to 5
+Updating Model file from 30000 to latest format...
+Model name 'Soccer Ball Kicking Model' contains whitespace. It was renamed 'SoccerBallKickingModel'.
+Loaded model SoccerBallKickingModel from file C:\Users\Gustavo Simas\Documents\Github\EEL7125\Open Sim\opensim_data\Models\SoccerKick\SoccerKickingModel.osim
+Running tool SoccerBallKickingModel.
+No external loads will be applied (external loads file not specified).
+MODEL: SoccerBallKickingModel
+
+numStates = 41
+numCoordinates = 11
+numSpeeds = 11
+numActuators = 9
+numBodies = 25
+numConstraints = 1
+numProbes = 0
+
+ANALYSES (total: 2)
+analysis[0] = Un-named analysis.
+analysis[1] = Un-named analysis.
+
+BODIES (total: 25)
+body[0] = swivel. mass: 0
+              moments of inertia:  ~[0,0,0]
+              products of inertia: ~[0,0,0]
+body[1] = pelvis. mass: 10.4349
+              moments of inertia:  ~[0.0892422,0.0756128,0.0502638]
+              products of inertia: ~[0,0,0]
+body[2] = femur_r. mass: 8.54927
+              moments of inertia:  ~[0.169564,0.0444489,0.178809]
+              products of inertia: ~[0,0,0]
+body[3] = tibia_r. mass: 4.67404
+              moments of inertia:  ~[0.0802351,0.00811903,0.0813495]
+              products of inertia: ~[0,0,0]
+body[4] = patella_r. mass: 0.0919138
+              moments of inertia:  ~[0.00110296,0.00110296,0.00110296]
+              products of inertia: ~[0,0,0]
+body[5] = talus_r. mass: 0.126069
+              moments of inertia:  ~[0.00202166,0.00202166,0.00202166]
+              products of inertia: ~[0,0,0]
+body[6] = calcn_r. mass: 1.07225
+              moments of inertia:  ~[0.00090462,0.00361848,0.00361848]
+              products of inertia: ~[0,0,0]
+body[7] = toes_r. mass: 0.186142
+              moments of inertia:  ~[0,0,0.00090462]
+              products of inertia: ~[0,0,0]
+body[8] = femur_l. mass: 8.54927
+              moments of inertia:  ~[0.169564,0.0444489,0.178809]
+              products of inertia: ~[0,0,0]
+body[9] = tibia_l. mass: 4.67404
+              moments of inertia:  ~[0.0802351,0.00811903,0.0813495]
+              products of inertia: ~[0,0,0]
+body[10] = patella_l. mass: 0.0919138
+              moments of inertia:  ~[0.00110296,0.00110296,0.00110296]
+              products of inertia: ~[0,0,0]
+body[11] = talus_l. mass: 0.126069
+              moments of inertia:  ~[0.00202166,0.00202166,0.00202166]
+              products of inertia: ~[0,0,0]
+body[12] = calcn_l. mass: 1.07225
+              moments of inertia:  ~[0.00090462,0.00361848,0.00361848]
+              products of inertia: ~[0,0,0]
+body[13] = toes_l. mass: 0.186142
+              moments of inertia:  ~[0,0,0.00090462]
+              products of inertia: ~[0,0,0]
+body[14] = torso. mass: 23.7694
+              moments of inertia:  ~[1.45984,0.747987,1.41717]
+              products of inertia: ~[0,0,0]
+body[15] = humerus_r. mass: 1.80087
+              moments of inertia:  ~[0.00955261,0.00329536,0.0107225]
+              products of inertia: ~[0,0,0]
+body[16] = ulna_r. mass: 0.538268
+              moments of inertia:  ~[0.00304691,0.00063572,0.00330511]
+              products of inertia: ~[0,0,0]
+body[17] = radius_r. mass: 0.538268
+              moments of inertia:  ~[0.00304691,0.00063572,0.00330511]
+              products of inertia: ~[0,0,0]
+body[18] = hand_r. mass: 0.405363
+              moments of inertia:  ~[0.00079034,0.00048467,0.00118729]
+              products of inertia: ~[0,0,0]
+body[19] = humerus_l. mass: 1.80087
+              moments of inertia:  ~[0.00955261,0.00329536,0.0107225]
+              products of inertia: ~[0,0,0]
+body[20] = ulna_l. mass: 0.538268
+              moments of inertia:  ~[0.00304691,0.00063572,0.00330511]
+              products of inertia: ~[0,0,0]
+body[21] = radius_l. mass: 0.538268
+              moments of inertia:  ~[0.00304691,0.00063572,0.00330511]
+              products of inertia: ~[0,0,0]
+body[22] = hand_l. mass: 0.405363
+              moments of inertia:  ~[0.00079034,0.00048467,0.00118729]
+              products of inertia: ~[0,0,0]
+body[23] = goalie. mass: 150
+              moments of inertia:  ~[1.10079,0.400485,1.00119]
+              products of inertia: ~[0,0,0]
+body[24] = ball. mass: 0.25
+              moments of inertia:  ~[0.02,0.02,0.02]
+              products of inertia: ~[0,0,0]
+
+JOINTS (total: 25)
+joint[0] = ground_pelvis. parent: ground_offset, child: swivel_offset
+joint[1] = ground_swivel. parent: swivel_offset, child: pelvis_offset
+joint[2] = hip_r. parent: pelvis_offset, child: femur_r_offset
+joint[3] = knee_r. parent: femur_r_offset, child: tibia_r_offset
+joint[4] = tib_pat_r. parent: tibia_r_offset, child: patella_r_offset
+joint[5] = ankle_r. parent: tibia_r_offset, child: talus_r_offset
+joint[6] = subtalar_r. parent: talus_r_offset, child: calcn_r_offset
+joint[7] = mtp_r. parent: calcn_r_offset, child: toes_r_offset
+joint[8] = hip_l. parent: pelvis_offset, child: femur_l_offset
+joint[9] = knee_l. parent: femur_l_offset, child: tibia_l_offset
+joint[10] = tib_pat_l. parent: tibia_l_offset, child: patella_l_offset
+joint[11] = ankle_l. parent: tibia_l_offset, child: talus_l_offset
+joint[12] = subtalar_l. parent: talus_l_offset, child: calcn_l_offset
+joint[13] = mtp_l. parent: calcn_l_offset, child: toes_l_offset
+joint[14] = back. parent: pelvis_offset, child: torso_offset
+joint[15] = acromial_r. parent: torso_offset, child: humerus_r_offset
+joint[16] = elbow_r. parent: humerus_r_offset, child: ulna_r_offset
+joint[17] = radioulnar_r. parent: ulna_r_offset, child: radius_r_offset
+joint[18] = radius_hand_r. parent: radius_r_offset, child: hand_r_offset
+joint[19] = acromial_l. parent: torso_offset, child: humerus_l_offset
+joint[20] = elbow_l. parent: humerus_l_offset, child: ulna_l_offset
+joint[21] = radioulnar_l. parent: ulna_l_offset, child: radius_l_offset
+joint[22] = radius_hand_l. parent: radius_l_offset, child: hand_l_offset
+joint[23] = goalie_ground. parent: ground_offset, child: goalie_offset
+joint[24] = free. parent: ground_offset, child: ball_offset
+
+ACTUATORS (total: 9)
+actuator[0] = bifemlh_r
+actuator[1] = bifemsh_r
+actuator[2] = glut_max2_r
+actuator[3] = psoas_r
+actuator[4] = rect_fem_r
+actuator[5] = vas_int_r
+actuator[6] = med_gas_r
+actuator[7] = soleus_r
+actuator[8] = tib_ant_r
+
+STATES (total: 40)
+y[0] = /jointset/ground_pelvis/turn/value
+y[1] = /jointset/ground_pelvis/turn/speed
+y[2] = /jointset/hip_r/hip_flexion_r/value
+y[3] = /jointset/hip_r/hip_flexion_r/speed
+y[4] = /jointset/knee_r/knee_angle_r/value
+y[5] = /jointset/knee_r/knee_angle_r/speed
+y[6] = /jointset/tib_pat_r/knee_angle_pat_r/value
+y[7] = /jointset/tib_pat_r/knee_angle_pat_r/speed
+y[8] = /jointset/ankle_r/ankle_angle_r/value
+y[9] = /jointset/ankle_r/ankle_angle_r/speed
+y[10] = /jointset/free/ball_rx/value
+y[11] = /jointset/free/ball_rx/speed
+y[12] = /jointset/free/ball_ry/value
+y[13] = /jointset/free/ball_ry/speed
+y[14] = /jointset/free/ball_rz/value
+y[15] = /jointset/free/ball_rz/speed
+y[16] = /jointset/free/ball_tx/value
+y[17] = /jointset/free/ball_tx/speed
+y[18] = /jointset/free/ball_ty/value
+y[19] = /jointset/free/ball_ty/speed
+y[20] = /jointset/free/ball_tz/value
+y[21] = /jointset/free/ball_tz/speed
+y[22] = /forceset/bifemlh_r/activation
+y[23] = /forceset/bifemlh_r/fiber_length
+y[24] = /forceset/bifemsh_r/activation
+y[25] = /forceset/bifemsh_r/fiber_length
+y[26] = /forceset/glut_max2_r/activation
+y[27] = /forceset/glut_max2_r/fiber_length
+y[28] = /forceset/psoas_r/activation
+y[29] = /forceset/psoas_r/fiber_length
+y[30] = /forceset/rect_fem_r/activation
+y[31] = /forceset/rect_fem_r/fiber_length
+y[32] = /forceset/vas_int_r/activation
+y[33] = /forceset/vas_int_r/fiber_length
+y[34] = /forceset/med_gas_r/activation
+y[35] = /forceset/med_gas_r/fiber_length
+y[36] = /forceset/soleus_r/activation
+y[37] = /forceset/soleus_r/fiber_length
+y[38] = /forceset/tib_ant_r/activation
+y[39] = /forceset/tib_ant_r/fiber_length
+
+
+Integrating from 0 to 5
